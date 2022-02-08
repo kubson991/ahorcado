@@ -1,0 +1,18 @@
+.wordContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 3rem;
+    width: fit-content;
+    
+}
+.wordContainer .letter{
+    border-bottom: solid 1px black;
+    font-size: 3rem;
+    min-width: 4rem;
+    min-height: 3rem;
+    text-align: center;
+
+}

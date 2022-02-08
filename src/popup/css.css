@@ -1,0 +1,18 @@
+.popupSpace{
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.popupSpace .popup{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    max-width: 90rem;
+}

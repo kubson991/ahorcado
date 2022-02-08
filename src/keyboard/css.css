@@ -1,0 +1,53 @@
+.keyboardContainer{
+    background-color: #1a2229;
+    height: fit-content;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    padding: 3rem 0;
+}
+.keyboardContainer .letter,.keyboardContainer .letterOk,.keyboardContainer .letterError{
+    color: white;
+    font-size: 2rem;
+    width: 4.7rem;
+    height: 4rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 4rem;
+    outline: none;
+    border: none;
+}
+.keyboardContainer .letter{
+    background-color:#526167 ;
+
+}
+.keyboardContainer .letterError{
+    background-color:red ;
+
+}
+.keyboardContainer .letterOk{
+    background-color:green;
+
+}
+.keyboardContainer .letter:hover{
+    opacity: 0.8;
+}
+@media (min-width:1024px) {
+    .keyboardContainer .letter,.keyboardContainer .letterOk,.keyboardContainer .letterError{
+        font-size: 2.8rem;
+        width: 6.5rem;
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+}
+@media (min-width:1324px) {
+    .keyboardContainer .letter,.keyboardContainer .letterOk,.keyboardContainer .letterError{
+        font-size: 3rem;
+        width: 8rem;
+        height: 7rem;
+        line-height: 7rem;
+    }
+}
