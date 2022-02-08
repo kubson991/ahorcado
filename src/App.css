@@ -36,3 +36,15 @@
   cursor: pointer;
   
 }
+
+@media (min-width:1024px) {
+  .popupTitle{
+    font-size: 4.4rem;
+  }
+  .popupRestart button{
+    font-size: 4.2rem;
+  }
+  .popupRestart input{
+    font-size: 4rem;
+  }
+}

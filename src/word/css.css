@@ -16,3 +16,11 @@
     text-align: center;
 
 }
+
+@media (min-width:1024px) {
+    .wordContainer .letter{
+        font-size: 9rem;
+        min-width: 8rem;
+        min-height: 5rem;
+    }
+}
